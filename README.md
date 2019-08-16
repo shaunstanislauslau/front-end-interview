@@ -14,6 +14,14 @@
 
 建议选择基于VuePress的在线文档阅读方式: https://www.cxymsg.com/
 
+本项目支持PWA,如果你是IOS用户,则需要打开Safari(其他浏览器不行),手动点击分享（Share）图标，然后点击“添加到主屏幕”.
+
+![PWA引导]( https://xiaomuzhu-image.oss-cn-beijing.aliyuncs.com/2e1963bf0b17ce2087ed16604237ec91.png)
+
+Android用户可以用Chrome浏览器,添加到主屏幕即可.
+
+![pwa引导]( https://xiaomuzhu-image.oss-cn-beijing.aliyuncs.com/3a50f06e2d37c8243a3bda92d493ef75.png)
+
 ## 目录
 
 - [前言](#前言)
