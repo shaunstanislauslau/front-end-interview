@@ -41,7 +41,11 @@ module.exports = ctx => ({
     }],
     ['@vuepress/medium-zoom', true],
     ['@vuepress/google-analytics', {
-      ga: ''
+      ga: 'UA-145821923-1'
+    }],
+    ['vuepress-plugin-baidu-google-analytics', {
+      hm: '009a2f9b8cfc23cb5722f109462e450f',
+      ignore_hash: false
     }],
     ['container', {
       type: 'vue',

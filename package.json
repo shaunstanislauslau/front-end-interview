@@ -34,6 +34,7 @@
     "cz-conventional-changelog": "^3.0.2",
     "vue-toasted": "^1.1.25",
     "vuepress": "^1.0.1",
+    "vuepress-plugin-baidu-google-analytics": "^1.0.0",
     "vuepress-plugin-flowchart": "^1.4.2"
   }
 }
