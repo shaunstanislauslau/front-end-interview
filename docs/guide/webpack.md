@@ -80,7 +80,7 @@ Webpack 的运行流程是一个串行的过程，从启动到结束会依次执
 
 > 来源于[深入浅出webpack第五章](https://wangchong.tech/webpack/5%E5%8E%9F%E7%90%86/5-1%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E6%A6%82%E6%8B%AC.html)
 
-> 拓展阅读[细说 webpack 之流程篇](http://taobaofed.org/blog/2016/09/09/webpack-flow/)
+> 拓展阅读[细说 webpack 之流程篇](https://fed.taobao.org/blog/2016/09/10/webpack-flow/)
 
 ## 是否写过Loader和Plugin？描述一下编写loader或plugin的思路？
 
