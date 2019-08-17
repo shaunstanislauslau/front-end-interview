@@ -161,7 +161,7 @@ document.body.appendChild(fragment);
 }
 ```
 
-> 关于合成层的详解请移步[无线性能优化：Composite](http://taobaofed.org/blog/2016/04/25/performance-composite/)
+> 关于合成层的详解请移步[无线性能优化：Composite](https://fed.taobao.org/blog/2016/04/26/performance-composite/)
 
 
 
