@@ -103,7 +103,7 @@ meta标签由name和content两个属性来定义，来描述一个HTML网页文�
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 ```
 
-* apple-mobile-web-app-status-bar-style,开发过PWA应用的开发者应该很熟悉，为了自定义评估工具栏的颜色。
+* apple-mobile-web-app-status-bar-style,开发过PWA应用的开发者应该很熟悉，为了自定义苹果工具栏的颜色。
 
 ```html
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
