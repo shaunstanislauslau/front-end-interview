@@ -22,6 +22,8 @@ Android用户可以用Chrome浏览器,添加到主屏幕即可.
 
 ![pwa引导]( https://xiaomuzhu-image.oss-cn-beijing.aliyuncs.com/3a50f06e2d37c8243a3bda92d493ef75.png)
 
+![效果图](pwa.gif)
+
 ## 目录
 
 - [前言](#前言)

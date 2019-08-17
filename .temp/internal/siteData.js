@@ -125,76 +125,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "React组件复用指南",
-      "frontmatter": {},
-      "regularPath": "/guide/abstract.html",
-      "relativePath": "guide/abstract.md",
-      "key": "v-5db7e350",
-      "path": "/guide/abstract.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "高阶组件(HOC)",
-          "slug": "高阶组件-hoc"
-        },
-        {
-          "level": 3,
-          "title": "什么是高阶组件？",
-          "slug": "什么是高阶组件？"
-        },
-        {
-          "level": 3,
-          "title": "HOC 工厂的实现方法",
-          "slug": "hoc-工厂的实现方法"
-        },
-        {
-          "level": 3,
-          "title": "反向继承(Inheritance Inversion)",
-          "slug": "反向继承-inheritance-inversion"
-        },
-        {
-          "level": 2,
-          "title": "Inheritance Inversion 的高阶组件不一定会解析完整子树",
-          "slug": "inheritance-inversion-的高阶组件不一定会解析完整子树"
-        },
-        {
-          "level": 3,
-          "title": "附录 A: HOC 和参数",
-          "slug": "附录-a-hoc-和参数"
-        },
-        {
-          "level": 2,
-          "title": "渲染属性(Render Props)",
-          "slug": "渲染属性-render-props"
-        },
-        {
-          "level": 3,
-          "title": "Mixins 存在的问题",
-          "slug": "mixins-存在的问题"
-        },
-        {
-          "level": 3,
-          "title": "HOC 是新的 Mixin",
-          "slug": "hoc-是新的-mixin"
-        },
-        {
-          "level": 3,
-          "title": "Render Props",
-          "slug": "render-props"
-        },
-        {
-          "level": 3,
-          "title": "Render Props > HOCs",
-          "slug": "render-props-hocs"
-        },
-        {
-          "level": 2,
-          "title": "公众号",
-          "slug": "公众号"
-        }
-      ]
-    },
-    {
       "title": "算法面试题",
       "frontmatter": {},
       "regularPath": "/guide/algorithm.html",
@@ -253,6 +183,13 @@ export const siteData = {
           "slug": "公众号"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/babel.html",
+      "relativePath": "guide/babel.md",
+      "key": "v-6ce1c4f6",
+      "path": "/guide/babel.html"
     },
     {
       "title": "如何写一个babel",
@@ -323,13 +260,6 @@ export const siteData = {
           "slug": "公众号"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/babel.html",
-      "relativePath": "guide/babel.md",
-      "key": "v-6ce1c4f6",
-      "path": "/guide/babel.html"
     },
     {
       "title": "书籍/课程推荐",
@@ -453,6 +383,111 @@ export const siteData = {
           "level": 2,
           "title": "结尾",
           "slug": "结尾"
+        },
+        {
+          "level": 2,
+          "title": "公众号",
+          "slug": "公众号"
+        }
+      ]
+    },
+    {
+      "title": "React组件复用指南",
+      "frontmatter": {},
+      "regularPath": "/guide/abstract.html",
+      "relativePath": "guide/abstract.md",
+      "key": "v-5db7e350",
+      "path": "/guide/abstract.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "高阶组件(HOC)",
+          "slug": "高阶组件-hoc"
+        },
+        {
+          "level": 3,
+          "title": "什么是高阶组件？",
+          "slug": "什么是高阶组件？"
+        },
+        {
+          "level": 3,
+          "title": "HOC 工厂的实现方法",
+          "slug": "hoc-工厂的实现方法"
+        },
+        {
+          "level": 3,
+          "title": "反向继承(Inheritance Inversion)",
+          "slug": "反向继承-inheritance-inversion"
+        },
+        {
+          "level": 2,
+          "title": "Inheritance Inversion 的高阶组件不一定会解析完整子树",
+          "slug": "inheritance-inversion-的高阶组件不一定会解析完整子树"
+        },
+        {
+          "level": 3,
+          "title": "附录 A: HOC 和参数",
+          "slug": "附录-a-hoc-和参数"
+        },
+        {
+          "level": 2,
+          "title": "渲染属性(Render Props)",
+          "slug": "渲染属性-render-props"
+        },
+        {
+          "level": 3,
+          "title": "Mixins 存在的问题",
+          "slug": "mixins-存在的问题"
+        },
+        {
+          "level": 3,
+          "title": "HOC 是新的 Mixin",
+          "slug": "hoc-是新的-mixin"
+        },
+        {
+          "level": 3,
+          "title": "Render Props",
+          "slug": "render-props"
+        },
+        {
+          "level": 3,
+          "title": "Render Props > HOCs",
+          "slug": "render-props-hocs"
+        },
+        {
+          "level": 2,
+          "title": "公众号",
+          "slug": "公众号"
+        }
+      ]
+    },
+    {
+      "title": "实现轮播图组件",
+      "frontmatter": {},
+      "regularPath": "/guide/carousel.html",
+      "relativePath": "guide/carousel.md",
+      "key": "v-17888648",
+      "path": "/guide/carousel.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "轮播图基本原理",
+          "slug": "轮播图基本原理"
+        },
+        {
+          "level": 2,
+          "title": "轮播图基础实现",
+          "slug": "轮播图基础实现"
+        },
+        {
+          "level": 2,
+          "title": "轮播图的动画效果",
+          "slug": "轮播图的动画效果"
+        },
+        {
+          "level": 2,
+          "title": "改进方向",
+          "slug": "改进方向"
         },
         {
           "level": 2,
@@ -597,41 +632,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "实现轮播图组件",
-      "frontmatter": {},
-      "regularPath": "/guide/carousel.html",
-      "relativePath": "guide/carousel.md",
-      "key": "v-17888648",
-      "path": "/guide/carousel.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "轮播图基本原理",
-          "slug": "轮播图基本原理"
-        },
-        {
-          "level": 2,
-          "title": "轮播图基础实现",
-          "slug": "轮播图基础实现"
-        },
-        {
-          "level": 2,
-          "title": "轮播图的动画效果",
-          "slug": "轮播图的动画效果"
-        },
-        {
-          "level": 2,
-          "title": "改进方向",
-          "slug": "改进方向"
-        },
-        {
-          "level": 2,
-          "title": "公众号",
-          "slug": "公众号"
-        }
-      ]
-    },
-    {
       "title": "框架通用面试题",
       "frontmatter": {},
       "regularPath": "/guide/common.html",
@@ -653,6 +653,36 @@ export const siteData = {
           "level": 2,
           "title": "虚拟DOM实现原理?",
           "slug": "虚拟dom实现原理"
+        },
+        {
+          "level": 2,
+          "title": "公众号",
+          "slug": "公众号"
+        }
+      ]
+    },
+    {
+      "title": "组件设计原则",
+      "frontmatter": {},
+      "regularPath": "/guide/component.html",
+      "relativePath": "guide/component.md",
+      "key": "v-909d7754",
+      "path": "/guide/component.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "细粒度的考量",
+          "slug": "细粒度的考量"
+        },
+        {
+          "level": 2,
+          "title": "通用性考量",
+          "slug": "通用性考量"
         },
         {
           "level": 2,
@@ -732,41 +762,18 @@ export const siteData = {
       ]
     },
     {
-      "title": "组件设计原则",
-      "frontmatter": {},
-      "regularPath": "/guide/component.html",
-      "relativePath": "guide/component.md",
-      "key": "v-909d7754",
-      "path": "/guide/component.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "细粒度的考量",
-          "slug": "细粒度的考量"
-        },
-        {
-          "level": 2,
-          "title": "通用性考量",
-          "slug": "通用性考量"
-        },
-        {
-          "level": 2,
-          "title": "公众号",
-          "slug": "公众号"
-        }
-      ]
-    },
-    {
       "frontmatter": {},
       "regularPath": "/guide/composite.html",
       "relativePath": "guide/composite.md",
       "key": "v-45f5ac96",
       "path": "/guide/composite.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/dataStructure.html",
+      "relativePath": "guide/dataStructure.md",
+      "key": "v-48a310d6",
+      "path": "/guide/dataStructure.html"
     },
     {
       "title": "CSS基础",
@@ -944,21 +951,6 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/guide/dataStructure.html",
-      "relativePath": "guide/dataStructure.md",
-      "key": "v-48a310d6",
-      "path": "/guide/dataStructure.html"
-    },
-    {
-      "title": "设计模式",
-      "frontmatter": {},
-      "regularPath": "/guide/designPatterns.html",
-      "relativePath": "guide/designPatterns.md",
-      "key": "v-1d743fcc",
-      "path": "/guide/designPatterns.html"
-    },
-    {
       "title": "实现深克隆",
       "frontmatter": {},
       "regularPath": "/guide/deepclone.html",
@@ -995,6 +987,59 @@ export const siteData = {
           "level": 2,
           "title": "总结",
           "slug": "总结"
+        },
+        {
+          "level": 2,
+          "title": "公众号",
+          "slug": "公众号"
+        }
+      ]
+    },
+    {
+      "title": "设计模式",
+      "frontmatter": {},
+      "regularPath": "/guide/designPatterns.html",
+      "relativePath": "guide/designPatterns.md",
+      "key": "v-1d743fcc",
+      "path": "/guide/designPatterns.html"
+    },
+    {
+      "title": "DOM",
+      "frontmatter": {},
+      "regularPath": "/guide/dom.html",
+      "relativePath": "guide/dom.md",
+      "key": "v-d62d5894",
+      "path": "/guide/dom.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "DOM的事件模型是什么？",
+          "slug": "dom的事件模型是什么？"
+        },
+        {
+          "level": 2,
+          "title": "DOM的事件流是什么？",
+          "slug": "dom的事件流是什么？"
+        },
+        {
+          "level": 3,
+          "title": "事件冒泡",
+          "slug": "事件冒泡"
+        },
+        {
+          "level": 3,
+          "title": "事件捕获",
+          "slug": "事件捕获"
+        },
+        {
+          "level": 3,
+          "title": "事件流",
+          "slug": "事件流"
+        },
+        {
+          "level": 2,
+          "title": "什么是事件委托",
+          "slug": "什么是事件委托"
         },
         {
           "level": 2,
@@ -1074,51 +1119,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "DOM",
-      "frontmatter": {},
-      "regularPath": "/guide/dom.html",
-      "relativePath": "guide/dom.md",
-      "key": "v-d62d5894",
-      "path": "/guide/dom.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "DOM的事件模型是什么？",
-          "slug": "dom的事件模型是什么？"
-        },
-        {
-          "level": 2,
-          "title": "DOM的事件流是什么？",
-          "slug": "dom的事件流是什么？"
-        },
-        {
-          "level": 3,
-          "title": "事件冒泡",
-          "slug": "事件冒泡"
-        },
-        {
-          "level": 3,
-          "title": "事件捕获",
-          "slug": "事件捕获"
-        },
-        {
-          "level": 3,
-          "title": "事件流",
-          "slug": "事件流"
-        },
-        {
-          "level": 2,
-          "title": "什么是事件委托",
-          "slug": "什么是事件委托"
-        },
-        {
-          "level": 2,
-          "title": "公众号",
-          "slug": "公众号"
-        }
-      ]
-    },
-    {
       "title": "前端工程化",
       "frontmatter": {},
       "regularPath": "/guide/engineering.html",
@@ -1150,6 +1150,61 @@ export const siteData = {
           "level": 2,
           "title": "git reset、git revert 和 git checkout 有什么区别",
           "slug": "git-reset、git-revert-和-git-checkout-有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "公众号",
+          "slug": "公众号"
+        }
+      ]
+    },
+    {
+      "title": "如何实现一个Event",
+      "frontmatter": {},
+      "regularPath": "/guide/event.html",
+      "relativePath": "guide/event.md",
+      "key": "v-69018a14",
+      "path": "/guide/event.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "基本构造",
+          "slug": "基本构造"
+        },
+        {
+          "level": 3,
+          "title": "初始化class",
+          "slug": "初始化class"
+        },
+        {
+          "level": 3,
+          "title": "监听与触发",
+          "slug": "监听与触发"
+        },
+        {
+          "level": 2,
+          "title": "升级改造",
+          "slug": "升级改造"
+        },
+        {
+          "level": 3,
+          "title": "监听/触发器升级",
+          "slug": "监听-触发器升级"
+        },
+        {
+          "level": 3,
+          "title": "移除监听",
+          "slug": "移除监听"
+        },
+        {
+          "level": 3,
+          "title": "发现问题",
+          "slug": "发现问题"
         },
         {
           "level": 2,
@@ -1344,111 +1399,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "如何实现一个Event",
-      "frontmatter": {},
-      "regularPath": "/guide/event.html",
-      "relativePath": "guide/event.md",
-      "key": "v-69018a14",
-      "path": "/guide/event.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "基本构造",
-          "slug": "基本构造"
-        },
-        {
-          "level": 3,
-          "title": "初始化class",
-          "slug": "初始化class"
-        },
-        {
-          "level": 3,
-          "title": "监听与触发",
-          "slug": "监听与触发"
-        },
-        {
-          "level": 2,
-          "title": "升级改造",
-          "slug": "升级改造"
-        },
-        {
-          "level": 3,
-          "title": "监听/触发器升级",
-          "slug": "监听-触发器升级"
-        },
-        {
-          "level": 3,
-          "title": "移除监听",
-          "slug": "移除监听"
-        },
-        {
-          "level": 3,
-          "title": "发现问题",
-          "slug": "发现问题"
-        },
-        {
-          "level": 2,
-          "title": "公众号",
-          "slug": "公众号"
-        }
-      ]
-    },
-    {
-      "title": "前端性能优化-执行篇",
-      "frontmatter": {},
-      "regularPath": "/guide/execute.html",
-      "relativePath": "guide/execute.md",
-      "key": "v-09708bd6",
-      "path": "/guide/execute.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "动画性能优化",
-          "slug": "动画性能优化"
-        },
-        {
-          "level": 3,
-          "title": "CSS3动画优化原理",
-          "slug": "css3动画优化原理"
-        },
-        {
-          "level": 3,
-          "title": "CSS3动画优化",
-          "slug": "css3动画优化"
-        },
-        {
-          "level": 3,
-          "title": "Canvas动画优化",
-          "slug": "canvas动画优化"
-        },
-        {
-          "level": 2,
-          "title": "大量数据性能优化",
-          "slug": "大量数据性能优化"
-        },
-        {
-          "level": 3,
-          "title": "虚拟列表",
-          "slug": "虚拟列表"
-        },
-        {
-          "level": 3,
-          "title": "Web Worker",
-          "slug": "web-worker-2"
-        },
-        {
-          "level": 2,
-          "title": "公众号",
-          "slug": "公众号"
-        }
-      ]
-    },
-    {
       "title": "React Fiber 架构解析",
       "frontmatter": {},
       "regularPath": "/guide/fiber.html",
@@ -1535,6 +1485,56 @@ export const siteData = {
           "level": 3,
           "title": "更新后的生命周期方法",
           "slug": "更新后的生命周期方法"
+        },
+        {
+          "level": 2,
+          "title": "公众号",
+          "slug": "公众号"
+        }
+      ]
+    },
+    {
+      "title": "前端性能优化-执行篇",
+      "frontmatter": {},
+      "regularPath": "/guide/execute.html",
+      "relativePath": "guide/execute.md",
+      "key": "v-09708bd6",
+      "path": "/guide/execute.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "动画性能优化",
+          "slug": "动画性能优化"
+        },
+        {
+          "level": 3,
+          "title": "CSS3动画优化原理",
+          "slug": "css3动画优化原理"
+        },
+        {
+          "level": 3,
+          "title": "CSS3动画优化",
+          "slug": "css3动画优化"
+        },
+        {
+          "level": 3,
+          "title": "Canvas动画优化",
+          "slug": "canvas动画优化"
+        },
+        {
+          "level": 2,
+          "title": "大量数据性能优化",
+          "slug": "大量数据性能优化"
+        },
+        {
+          "level": 3,
+          "title": "虚拟列表",
+          "slug": "虚拟列表"
+        },
+        {
+          "level": 3,
+          "title": "Web Worker",
+          "slug": "web-worker-2"
         },
         {
           "level": 2,
@@ -2657,6 +2657,56 @@ export const siteData = {
       ]
     },
     {
+      "title": "Vue的响应式系统",
+      "frontmatter": {},
+      "regularPath": "/guide/reactivity.html",
+      "relativePath": "guide/reactivity.md",
+      "key": "v-1f0a8450",
+      "path": "/guide/reactivity.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "响应式系统",
+          "slug": "响应式系统"
+        },
+        {
+          "level": 2,
+          "title": "发布订阅中心",
+          "slug": "发布订阅中心"
+        },
+        {
+          "level": 2,
+          "title": "监听者的实现",
+          "slug": "监听者的实现"
+        },
+        {
+          "level": 2,
+          "title": "订阅者的实现",
+          "slug": "订阅者的实现"
+        },
+        {
+          "level": 2,
+          "title": "批量更新的实现",
+          "slug": "批量更新的实现"
+        },
+        {
+          "level": 2,
+          "title": "梳理",
+          "slug": "梳理"
+        },
+        {
+          "level": 2,
+          "title": "响应式系统并不是全部",
+          "slug": "响应式系统并不是全部"
+        },
+        {
+          "level": 2,
+          "title": "公众号",
+          "slug": "公众号"
+        }
+      ]
+    },
+    {
       "title": "React-hooks 抽象组件",
       "frontmatter": {},
       "regularPath": "/guide/reactHook.html",
@@ -2727,47 +2777,82 @@ export const siteData = {
       ]
     },
     {
-      "title": "Vue的响应式系统",
+      "title": "面试官到底想看什么样的简历？",
       "frontmatter": {},
-      "regularPath": "/guide/reactivity.html",
-      "relativePath": "guide/reactivity.md",
-      "key": "v-1f0a8450",
-      "path": "/guide/reactivity.html",
+      "regularPath": "/guide/resume.html",
+      "relativePath": "guide/resume.md",
+      "key": "v-0390a37c",
+      "path": "/guide/resume.html",
       "headers": [
         {
           "level": 2,
-          "title": "响应式系统",
-          "slug": "响应式系统"
+          "title": "简历准备",
+          "slug": "简历准备"
         },
         {
           "level": 2,
-          "title": "发布订阅中心",
-          "slug": "发布订阅中心"
+          "title": "准备简历模板",
+          "slug": "准备简历模板"
         },
         {
           "level": 2,
-          "title": "监听者的实现",
-          "slug": "监听者的实现"
+          "title": "准备个人信息",
+          "slug": "准备个人信息"
         },
         {
           "level": 2,
-          "title": "订阅者的实现",
-          "slug": "订阅者的实现"
+          "title": "准备专业技能",
+          "slug": "准备专业技能"
         },
         {
           "level": 2,
-          "title": "批量更新的实现",
-          "slug": "批量更新的实现"
+          "title": "准备工作经历",
+          "slug": "准备工作经历"
         },
         {
           "level": 2,
-          "title": "梳理",
-          "slug": "梳理"
+          "title": "准备项目经历",
+          "slug": "准备项目经历"
+        },
+        {
+          "level": 3,
+          "title": "切忌流水账写法",
+          "slug": "切忌流水账写法"
+        },
+        {
+          "level": 3,
+          "title": "切忌堆积项目",
+          "slug": "切忌堆积项目"
+        },
+        {
+          "level": 3,
+          "title": "切忌放虚假项目",
+          "slug": "切忌放虚假项目"
+        },
+        {
+          "level": 3,
+          "title": "合格的项目经历如何写",
+          "slug": "合格的项目经历如何写"
         },
         {
           "level": 2,
-          "title": "响应式系统并不是全部",
-          "slug": "响应式系统并不是全部"
+          "title": "教育背景",
+          "slug": "教育背景"
+        },
+        {
+          "level": 2,
+          "title": "几点注意事项",
+          "slug": "几点注意事项"
+        },
+        {
+          "level": 2,
+          "title": "你可能的疑问",
+          "slug": "你可能的疑问"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
         },
         {
           "level": 2,
@@ -2856,91 +2941,6 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "总结",
-          "slug": "总结"
-        },
-        {
-          "level": 2,
-          "title": "公众号",
-          "slug": "公众号"
-        }
-      ]
-    },
-    {
-      "title": "面试官到底想看什么样的简历？",
-      "frontmatter": {},
-      "regularPath": "/guide/resume.html",
-      "relativePath": "guide/resume.md",
-      "key": "v-0390a37c",
-      "path": "/guide/resume.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "简历准备",
-          "slug": "简历准备"
-        },
-        {
-          "level": 2,
-          "title": "准备简历模板",
-          "slug": "准备简历模板"
-        },
-        {
-          "level": 2,
-          "title": "准备个人信息",
-          "slug": "准备个人信息"
-        },
-        {
-          "level": 2,
-          "title": "准备专业技能",
-          "slug": "准备专业技能"
-        },
-        {
-          "level": 2,
-          "title": "准备工作经历",
-          "slug": "准备工作经历"
-        },
-        {
-          "level": 2,
-          "title": "准备项目经历",
-          "slug": "准备项目经历"
-        },
-        {
-          "level": 3,
-          "title": "切忌流水账写法",
-          "slug": "切忌流水账写法"
-        },
-        {
-          "level": 3,
-          "title": "切忌堆积项目",
-          "slug": "切忌堆积项目"
-        },
-        {
-          "level": 3,
-          "title": "切忌放虚假项目",
-          "slug": "切忌放虚假项目"
-        },
-        {
-          "level": 3,
-          "title": "合格的项目经历如何写",
-          "slug": "合格的项目经历如何写"
-        },
-        {
-          "level": 2,
-          "title": "教育背景",
-          "slug": "教育背景"
-        },
-        {
-          "level": 2,
-          "title": "几点注意事项",
-          "slug": "几点注意事项"
-        },
-        {
-          "level": 2,
-          "title": "你可能的疑问",
-          "slug": "你可能的疑问"
-        },
-        {
-          "level": 2,
           "title": "总结",
           "slug": "总结"
         },
@@ -3727,46 +3727,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "webpack 插件化设计",
-      "frontmatter": {},
-      "regularPath": "/guide/webpackPluginDesign.html",
-      "relativePath": "guide/webpackPluginDesign.md",
-      "key": "v-79883036",
-      "path": "/guide/webpackPluginDesign.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "事件系统",
-          "slug": "事件系统"
-        },
-        {
-          "level": 2,
-          "title": "插件化设计",
-          "slug": "插件化设计"
-        },
-        {
-          "level": 2,
-          "title": "执行实例",
-          "slug": "执行实例"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        },
-        {
-          "level": 2,
-          "title": "公众号",
-          "slug": "公众号"
-        }
-      ]
-    },
-    {
       "title": "webpack插件编写",
       "frontmatter": {},
       "regularPath": "/guide/webpackPlugin.html",
@@ -3873,6 +3833,46 @@ export const siteData = {
           "level": 3,
           "title": "编写插件",
           "slug": "编写插件"
+        },
+        {
+          "level": 2,
+          "title": "公众号",
+          "slug": "公众号"
+        }
+      ]
+    },
+    {
+      "title": "webpack 插件化设计",
+      "frontmatter": {},
+      "regularPath": "/guide/webpackPluginDesign.html",
+      "relativePath": "guide/webpackPluginDesign.md",
+      "key": "v-79883036",
+      "path": "/guide/webpackPluginDesign.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "事件系统",
+          "slug": "事件系统"
+        },
+        {
+          "level": 2,
+          "title": "插件化设计",
+          "slug": "插件化设计"
+        },
+        {
+          "level": 2,
+          "title": "执行实例",
+          "slug": "执行实例"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
         },
         {
           "level": 2,
