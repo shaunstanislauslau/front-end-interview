@@ -162,9 +162,10 @@ JavaScript并非简单的一行行解释执行，而是将JavaScript代码分为
 
 ##### 词法环境(LexicalEnvironment)
 
-词法环境分为两大类：
+词法环境分为三大类：
 
 * 全局环境：全局环境的外部环境引用是 null，它拥有内建的 Object/Array/等、在环境记录器内的原型函数（关联全局对象，比如 window 对象）还有任何用户定义的全局变量，并且 this的值指向全局对象。
+* 模块环境：包含模块顶级声明的绑定以及模块显式导入的绑定。 模块环境的外部环境是全局环境。
 * 函数环境：函数内部用户定义的变量存储在环境记录器中，外部引用既可以是其它函数的内部词法环境，也可以是全局词法环境
 
 词法环境本身包括两个部分：
@@ -172,10 +173,10 @@ JavaScript并非简单的一行行解释执行，而是将JavaScript代码分为
 * 『环境记录器（Environment Record）』是存储变量和函数声明的实际位置
 * 『外部环境的引用（outer Lexical Environment）』指它可以访问其父级词法环境（即作用域）
 
-对于『环境记录器』而言，它又分为两个主要的词法环境类型：
+对于『环境记录器』而言，它又分为两个主要的环境记录器类型：
 
-* 声明式环境（DecarativeEnvironment）：函数定义，变量声明，try...catch等，此类型只对应函数的词法环境
-* 对象式环境（ObjectEnvironment）：程序级别的（Program）对象、声明、with语句等，此类型只对应全局的词法环境
+* 声明式环境记录器（DecarativeEnvironmentRecord）：范围包含函数定义，变量声明，try...catch等，此类型对应其范围内包含的声明定义的标识符集
+* 对象式环境记录器（ObjectEnvironmentRecord）：由程序级别的（Program）对象、声明、with语句等创建，与称为其绑定对象的对象相关联，此类型对应于其绑定对象的属性名称的字符串标识符名称集
 
 比如我们在全局声明一个函数:
 
@@ -185,7 +186,7 @@ JavaScript并非简单的一行行解释执行，而是将JavaScript代码分为
 
 ![2019-06-20-03-49-33]( https://xiaomuzhu-image.oss-cn-beijing.aliyuncs.com/f2fd3a92e2aa96c5005d525389834a57.png)
 
-##### 变量环境(LexicalEnvironment)
+##### 变量环境(VariableEnvironment)
 
 变量环境的定义在es5标准和es6标准是略有不同的，我们采用[es6的标准](http://www.ecma-international.org/ecma-262/6.0/#sec-for-statement-runtime-semantics-labelledevaluation)
 
