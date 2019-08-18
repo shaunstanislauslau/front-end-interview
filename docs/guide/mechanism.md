@@ -186,7 +186,7 @@ JavaScript并非简单的一行行解释执行，而是将JavaScript代码分为
 
 ![2019-06-20-03-49-33]( https://xiaomuzhu-image.oss-cn-beijing.aliyuncs.com/f2fd3a92e2aa96c5005d525389834a57.png)
 
-##### 变量环境(LexicalEnvironment)
+##### 变量环境(VariableEnvironment)
 
 变量环境的定义在es5标准和es6标准是略有不同的，我们采用[es6的标准](http://www.ecma-international.org/ecma-262/6.0/#sec-for-statement-runtime-semantics-labelledevaluation)
 
