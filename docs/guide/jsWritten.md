@@ -220,27 +220,6 @@ class EventEmeitter {
 // 触发名为type的事件
 EventEmeitter.prototype.emit = function(type, ...args) {
   let handler;
-  // 从储存事件键值对的this._events中获取对应事件回调函数
-  handler = this._events.get(type);
-  if (args.length > 0) {
-    handler.apply(this, args);
-  } else {
-    handler.call(this);
-  }
-  return true;
-};
-
-// 监听名为type的事件
-EventEmeitter.prototype.addListener = function(type, fn) {
-  // 将type事件以及对应的fn函数放入this._events中储存
-  if (!this._events.get(type)) {
-    this._events.set(type, fn);
-  }
-};
-
-// 触发名为type的事件
-EventEmeitter.prototype.emit = function(type, ...args) {
-  let handler;
   handler = this._events.get(type);
   if (Array.isArray(handler)) {
     // 如果是一个数组说明有多个监听者,需要依次此触发里面的函数
