@@ -173,10 +173,10 @@ JavaScript并非简单的一行行解释执行，而是将JavaScript代码分为
 * 『环境记录器（Environment Record）』是存储变量和函数声明的实际位置
 * 『外部环境的引用（outer Lexical Environment）』指它可以访问其父级词法环境（即作用域）
 
-对于『环境记录器』而言，它又分为两个主要的词法环境类型：
+对于『环境记录器』而言，它又分为两个主要的环境记录器类型：
 
-* 声明式环境（DecarativeEnvironment）：函数定义，变量声明，try...catch等，此类型只对应函数的词法环境
-* 对象式环境（ObjectEnvironment）：程序级别的（Program）对象、声明、with语句等，此类型只对应全局的词法环境
+* 声明式环境记录器（DecarativeEnvironmentRecord）：范围包含函数定义，变量声明，try...catch等，此类型对应其范围内包含的声明定义的标识符集
+* 对象式环境记录器（ObjectEnvironmentRecord）：由程序级别的（Program）对象、声明、with语句等创建，与称为其绑定对象的对象相关联，此类型对应于其绑定对象的属性名称的字符串标识符名称集
 
 比如我们在全局声明一个函数:
 
